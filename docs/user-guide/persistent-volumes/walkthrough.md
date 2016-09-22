@@ -9,7 +9,7 @@ The purpose of this guide is to help you become familiar with [Kubernetes Persis
 nginx serving content from your persistent volume.
 
 You can view all the files for this example in [the docs repo
-here](https://github.com/kubernetes/kubernetes.github.io/tree/{{page.docsbranch}}/docs/user-guide/persistent-volumes).
+here](https://github.com/kubernetes/kubernetes.github.io/tree/{{page.githubbranch}}/docs/user-guide/persistent-volumes).
 
 This guide assumes knowledge of Kubernetes fundamentals and that you have a cluster up and running.
 

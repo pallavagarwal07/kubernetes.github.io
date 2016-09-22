@@ -124,7 +124,7 @@ spec:
 
 [Pods](/docs/user-guide/pods) support running multiple containers co-located together. They can be used to host vertically integrated application stacks, but their primary motivation is to support auxiliary helper programs that assist the primary application. Typical examples are data pullers, data pushers, and proxies.
 
-Such containers typically need to communicate with one another, often through the file system. This can be achieved by mounting the same volume into both containers. An example of this pattern would be a web server with a [program that polls a git repository](http://releases.k8s.io/{{page.githubbranch}}/contrib/git-sync/) for new updates:
+Such containers typically need to communicate with one another, often through the file system. This can be achieved by mounting the same volume into both containers. An example of this pattern would be a web server with a [program that polls a git repository](https://github.com/kubernetes/git-sync) for new updates:
 
 ```yaml
 apiVersion: extensions/v1beta1
